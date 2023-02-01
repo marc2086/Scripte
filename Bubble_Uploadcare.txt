@@ -1,0 +1,10 @@
+<script>
+window.addEventListener('LR_FILE_UPLOADER_REGULAR_UPLOAD_DONE', (e) => {
+  if (e.detail.ctx === 'uploader-ctx') {
+    // Hier ist die UUID
+    console.log(e.detail.uuid);
+
+    // Hier können Sie den Code einfügen, um die UUID in Ihrer internen Datenbank zu speichern
+  }
+});
+</script>
